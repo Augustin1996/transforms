@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>transforms</title>
+    <style>
+        body{
+            margin: 0; 
+            padding-top: 20px;
+            width: 100%;        
+        }
+        h1{
+            color: rgb(5, 13, 17);
+            text-align: center;
+           text-transform:uppercase;
+           transform: skew(0deg,-12deg);
+           font-size: 50px; 
+           text-shadow: -15px 0px 5px #096289  ;
+        }
+        .image1{
+            overflow: hidden;
+            float: left;
+            width:50%;
+            
+        }
+        .image2{
+            overflow: hidden;
+            float:right;
+            width: 50%;
+       
+        }
+        img{
+            transform: skew(0deg,15deg);
+            margin-left: 10%;
+            display: block;
+            transform: translate(auto auto);
+            width:80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>batttle field</h1>
+    <div class="image1"><img src="01.png" alt=""></div>
+    <div class="image2"><img src="02.jpg" alt=""></div>
+</body>
+</html>
